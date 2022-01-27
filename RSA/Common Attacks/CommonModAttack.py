@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Common mod attack can be done on RSA when multiple e is available for a single N
+# Common mod attack is a classic attack on RSA when multiple e is available for a single N
 # If gcd(e1, e2) == 1, then there exists integers k1, k2 such that k1 * e1 + k2 * e1 = 1 (Euclidean Algorithm)
 # ct1 = pt1 ^ e1(mod N)
 # ct2 = pt2 ^ e2(mod N)
