@@ -24,3 +24,5 @@ pt1 = pow(pow(ct1, -1, n), k1, n)
 pt = pt1 * pt2 % n
 
 print(long_to_bytes(pt))
+
+# https://ctftime.org/task/18258
