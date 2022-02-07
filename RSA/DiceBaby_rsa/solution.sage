@@ -1,3 +1,6 @@
+# https://eprint.iacr.org/2020/1059.pdf
+# https://blog.soreatu.com/posts/intended-solution-to-crypto-problems-in-nctf-2019/#analysis-4
+
 from Crypto.Util.number import long_to_bytes, bytes_to_long
 
 p = 172036442175296373253148927105725488217
