@@ -1,10 +1,16 @@
 # -*- coding: utf-8 -*-
 # Common mod attack is a classic attack on RSA when multiple e is available for a single N
-# If gcd(e1, e2) == 1, then there exists integers k1, k2 such that k1 * e1 + k2 * e1 = 1 (Euclidean Algorithm)
+# If gcd(e1, e2) == 1, then there exists integers k1, k2 such that k1 * e1 + k2 * e2 = 1 (Euclidean Algorithm)
 # ct1 = pt1 ^ e1(mod N)
 # ct2 = pt2 ^ e2(mod N)
-# ct2 ^ k2 * ct1 ^ (-k1) = pt ^ (k2 * e2 - k1 * e1) (mod N)
-# pt = (ct2 ^ k2 * inverse(ct1, N) ^ k1) (mod N)
+# ct2 ^ k2 * ct1 ^ (-k1) = pt ^ (k2 * e2 - k1 * e1) = pt(mod N)
+# k1 * e1 + k2 * e2 = 1
+# (k1 * e1 + k2 * e1) mod e1 = 1 mod e1
+# (k1 * e1) mod e1  + (k2 * e2) mod e1 = 1 mod e1
+# 0 + k2 * e2 mod e1 = 1 mod e1                      [k1 * e1 mod e1 = 0]
+# k2 = inverse(e2, e1)
+# k1 = (1 - k2 * e2) // e1
+
 
 from Crypto.Util.number import long_to_bytes
 
