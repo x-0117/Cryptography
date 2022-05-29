@@ -2,7 +2,7 @@
 Cryptography(CTFs, cryptohack.org and more)
 
 ## Hack the Box
-I don't think I'm supposed to post HTB writeups publicly! But I don't expect a lot of people to find this repo, so here goes ...
+I don't think I'm supposed to post HTB writeups publicly! But I don't expect a lot of people to find this repository, so here goes ...
 
 Cyber Apocalypse :
 - [Android in the middle](https://github.com/x-0117/Cryptography/tree/main/AES/cyberApocalypseAndroidInTheMiddle)
