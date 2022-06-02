@@ -17,3 +17,4 @@ Hack The Box challenges :
 - [Quantum Safe](https://github.com/x-0117/Cryptography/tree/main/Random/HTBQuantumSafe)
 - [RLotto](https://github.com/x-0117/Cryptography/tree/main/Random/HTBRLotto)
 - [xorxorxor](https://github.com/x-0117/Cryptography/tree/main/Random/HTBXorxorxor)
+- [Baby Quick Maffs](https://github.com/x-0117/Cryptography/tree/main/Random/HTBbabyQuickMaffs)
